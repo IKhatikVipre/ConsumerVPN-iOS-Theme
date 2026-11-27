@@ -317,6 +317,11 @@ extension UIColor {
         return .serverListBackground
     }
     
+    // MARK: - Dedicated IP
+    static var serverOff: UIColor {
+        return UIColor(hexColorString: "DE635F")
+    }
+    
 }
 
 
